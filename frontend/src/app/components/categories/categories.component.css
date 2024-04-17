@@ -1,0 +1,85 @@
+.categoriesBox, .scroller{
+    width: 100vw;
+    height: 65vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 0px -10px 0px 10px;
+}
+.scroller{
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0px;
+}
+.categoriesBox h3{
+    margin-top: 30px;
+}
+.categoriesBox .rows{
+    height: 28vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.categoriesBox .rows .cols{
+    width: 245px;
+}
+.categoriesBox .rows .cols .colorDiv{
+    width: 245px;
+    height: 60%;
+    border-radius: 5% 5% 40% 40%;
+    background-color: #3c7a85;
+    position: relative;
+    box-shadow: 1px 1px 10px black;
+}
+
+.categoriesBox .rows .cols img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 150%;
+    width: auto;
+    transform: translate(-50%,0%);
+}
+.categoriesBox .rows .cols .others{
+    top: 40%;
+    height: 110%;
+}
+.categoriesBox .rows .cols .others2{
+    top: 45%;
+    height: 100%;
+}
+
+.categoriesBox .rows .cols .colorDiv h4{
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 767px) {
+    .categoriesBox{
+        height: 50vh;
+    }
+    .categoriesBox .rows{
+        height: 25vh;
+    }
+    .categoriesBox .rows .cols{
+        width: 150px;
+        margin: 20px;
+    }
+    .categoriesBox .rows .cols .colorDiv{
+        width: 150px;
+    }
+    .categoriesBox .rows .cols .others{
+        top: 55%;
+        height: 110%;
+    }
+    .categoriesBox .rows .cols .others2{
+        top: 65%;
+        height: 100%;
+    }
+}

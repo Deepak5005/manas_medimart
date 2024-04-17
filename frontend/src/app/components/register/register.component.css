@@ -1,0 +1,62 @@
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    overflow: hidden;
+}
+.loginForm {
+    padding: 10px;
+    width: 30rem;
+    height: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #3c7a85;
+    z-index: 2;
+  }
+.imageholder img{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -11%);
+    z-index: 10;
+}
+.imageholder{
+    border-radius: 50%;
+    border: 2px solid #3c7a85;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 200;
+}  
+.formField{
+    width: 90%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.formField button{
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: white;
+    color:#3c7a85;
+    border: 1px solid #3c7a85;
+}
+.formField button:hover{
+    background-color: #3c7a85;
+    color: white;
+}

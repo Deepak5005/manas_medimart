@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #3c7a85;
+   }

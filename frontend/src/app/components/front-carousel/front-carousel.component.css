@@ -1,0 +1,51 @@
+.mainBox{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.carouselSize{
+    height: 100%;
+    margin: auto;
+}
+
+.carouselSize .carousel-inner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sidecar{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+    height: 47.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+    .mainBox{
+        height: 45vh;
+    }
+    .carouselSize{
+        height: 25vh;
+    }
+    .sidecar {
+      flex-direction: row;
+      justify-content: space-between;
+      height: 15vh;
+    }
+    .sidecar .box{
+        height: 100%;
+        width: 48.5%;
+    }
+}

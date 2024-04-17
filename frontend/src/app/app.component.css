@@ -1,0 +1,24 @@
+.navbar div form button {
+    color: #3c7a85;
+    margin: 5px;
+  }
+.navbar div form button a{
+  text-decoration: none;
+  color: #3c7a85;
+  }
+  
+  .navbar ul{
+    color: #3c7a85;
+  }
+  
+  .navbar div form button:hover{
+    a{
+      color:white
+    }
+    background-color: #3c7a85;
+  }
+  
+  .navbar div div ul li{
+    margin: 5px;
+    font-size: large;
+}
